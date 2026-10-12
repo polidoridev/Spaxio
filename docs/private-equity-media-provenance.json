@@ -1,0 +1,109 @@
+{
+  "project": "Polidori Private Equity",
+  "createdDate": "2026-09-15",
+  "provider": "Higgsfield",
+  "films": [
+    {
+      "index": 1,
+      "job_id": "b0dc121b-365a-45af-b29e-1b3446a153bc",
+      "model": "kling3_0",
+      "duration_requested": 6,
+      "aspect_ratio": "16:9",
+      "resolution_requested": "pro",
+      "generate_audio": false,
+      "prompt": "French Riviera, Monaco private marina at golden hour. A sculptural deep obsidian-black exotic grand touring supercar with champagne brake calipers parked diagonally on pale stone quay in the close foreground, its glossy body reflecting warm sun. Beside it a second elegant champagne-silver performance coupe partially visible, both unbranded, immaculate realistic wheels and bodywork. Behind the cars, a spectacular white multi-deck superyacht moored in calm dark turquoise water, a few distant luxurious yachts and terraced Riviera buildings. Low three-quarter camera position, cars occupy lower right and yacht silhouette upper right, dark foreground on left. A breeze gently ripples the water, fine realistic specular reflections move over the car. The scene feels private, quiet, exceptionally expensive.\nCreate a premium photoreal cinematic luxury brand film, 6 seconds, one continuous shot with absolutely no cuts. Ultra-realistic materials, refined architectural and automotive editorial photography, natural restrained color grading, rich ink-black shadows, champagne-gold highlights, soft warm golden-hour sunlight, subtle film grain, tasteful anamorphic character without letterbox bars. Camera makes a very slow perfectly smooth rightward dolly with gentle forward push, constant velocity from first to final frame, no speed ramps, no abrupt ending. Compose key subject center-right; keep lower-left dark and visually quiet for later website typography. No text overlays, no titles, no watermarks, no added graphics, no legible logos. Landscape 16:9, beautifully detailed, physically coherent motion.",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260915_131100_b0dc121b-365a-45af-b29e-1b3446a153bc.mp4",
+      "local_file": "film-01-original.mp4"
+    },
+    {
+      "index": 2,
+      "job_id": "0a75dc08-29e2-4e42-a996-c40401d69e32",
+      "model": "seedance_2_5",
+      "duration_requested": 6,
+      "aspect_ratio": "16:9",
+      "resolution_requested": "1080p",
+      "generate_audio": false,
+      "prompt": "A spectacular contemporary waterfront mansion on the French Riviera viewed from the edge of its long infinity pool at golden hour. Monumental pale travertine planes, floor-to-ceiling bronze-framed glass, generous cantilevered upper story, interior golden light, tasteful cream designer loungers, mature Mediterranean olive trees, distant blue sea. Architectural editorial composition with mansion mainly center-right and calm dark pool foreground on left. Smooth rightward lateral tracking just above water level slowly reveals more of the residence, extremely subtle pool ripples catch warm champagne sunset. No people. Realistic structural geometry, coherent windows and straight lines, understated billionaire villa.\nCreate a premium photoreal cinematic luxury brand film, 6 seconds, one continuous shot with absolutely no cuts. Ultra-realistic materials, refined architectural and automotive editorial photography, natural restrained color grading, rich ink-black shadows, champagne-gold highlights, soft warm golden-hour sunlight, subtle film grain, tasteful anamorphic character without letterbox bars. Camera makes a very slow perfectly smooth rightward dolly with gentle forward push, constant velocity from first to final frame, no speed ramps, no abrupt ending. Compose key subject center-right; keep lower-left dark and visually quiet for later website typography. No text overlays, no titles, no watermarks, no added graphics, no legible logos. Landscape 16:9, beautifully detailed, physically coherent motion.",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260915_131004_0a75dc08-29e2-4e42-a996-c40401d69e32.mp4",
+      "local_file": "film-02-original.mp4"
+    },
+    {
+      "index": 3,
+      "job_id": "6015e830-53df-42d5-becd-c1e2b87cd688",
+      "model": "seedance_2_5",
+      "duration_requested": 6,
+      "aspect_ratio": "16:9",
+      "resolution_requested": "1080p",
+      "generate_audio": false,
+      "prompt": "Inside a spectacular private penthouse study overlooking the softly blurred Mediterranean at golden hour. Close, elegant cinematic view across a dark polished walnut desk holding neatly arranged substantial bundles of realistic US-style banknotes secured with simple paper bands, a few immaculate stacked gold bullion bars, a discreet black leather folio. Clearly visible money and gold, believable still-life proportions and texture; camera distance means no readable banknote microtext or markings. Floor-to-ceiling window sends a warm diagonal shaft of champagne sunlight across the desk, dust motes barely visible, bronze details and dark oak background. Money and gold grouped on center-right, deep black negative space at lower left. Slow rightward dolly creates beautiful parallax and controlled changing reflections. Quiet, sophisticated, cinematic wealth.\nCreate a premium photoreal cinematic luxury brand film, 6 seconds, one continuous shot with absolutely no cuts. Ultra-realistic materials, refined architectural and automotive editorial photography, natural restrained color grading, rich ink-black shadows, champagne-gold highlights, soft warm golden-hour sunlight, subtle film grain, tasteful anamorphic character without letterbox bars. Camera makes a very slow perfectly smooth rightward dolly with gentle forward push, constant velocity from first to final frame, no speed ramps, no abrupt ending. Compose key subject center-right; keep lower-left dark and visually quiet for later website typography. No text overlays, no titles, no watermarks, no added graphics, no legible logos. Landscape 16:9, beautifully detailed, physically coherent motion.",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260915_131005_6015e830-53df-42d5-becd-c1e2b87cd688.mp4",
+      "local_file": "film-03-original.mp4"
+    },
+    {
+      "index": 4,
+      "job_id": "4ab5fa18-f59d-4ffd-b86e-6a7575830409",
+      "model": "seedance_2_5",
+      "createdDate": "2026-09-07",
+      "reusedDate": "2026-09-15",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "source_fps": 24,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260907_131851_4ab5fa18-f59d-4ffd-b86e-6a7575830409.mp4",
+      "local_file": "film-04-original.mp4"
+    },
+    {
+      "index": 5,
+      "job_id": "b36f3819-f9f9-40db-8df6-355d1cfe6a81",
+      "model": "seedance_2_5",
+      "createdDate": "2026-09-07",
+      "reusedDate": "2026-09-15",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "source_fps": 24,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260907_131851_b36f3819-f9f9-40db-8df6-355d1cfe6a81.mp4",
+      "local_file": "film-05-original.mp4"
+    },
+    {
+      "index": 6,
+      "job_id": "4f14bf9a-60a8-4cbb-be86-ba534d5da751",
+      "model": "seedance_2_5",
+      "createdDate": "2026-09-07",
+      "reusedDate": "2026-09-15",
+      "status": "completed",
+      "width": 1920,
+      "height": 1080,
+      "source_fps": 24,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IVdh66xM6kJXVKxYOoFFC3CS0h/hf_20260907_131851_4f14bf9a-60a8-4cbb-be86-ba534d5da751.mp4",
+      "local_file": "film-06-original.mp4"
+    }
+  ],
+  "scrub_derivatives": {
+    "method": "Offline motion-compensated interpolation of the original 24 fps films; source resolution preserved.",
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "frames": [
+      363,
+      361,
+      361,
+      301,
+      301,
+      301
+    ],
+    "h264_crf": 18,
+    "webp_quality": 88,
+    "renderer": "Plain HTML/CSS/JavaScript with a persistent WebCodecs worker; complete GOP6 films preload into compressed memory; six-frame decode groups.",
+    "delivery_bytes": 45802639
+  }
+}

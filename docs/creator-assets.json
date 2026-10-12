@@ -1,0 +1,89 @@
+{
+  "reviewDate": "2026-10-11",
+  "design": {
+    "mode": "complete overhaul",
+    "variance": 8,
+    "motion": 7,
+    "density": 3,
+    "aesthetic": "cinematic creator portfolio",
+    "baseline": "Course-led homepage with serif headings, dark palette, four older reels and a scroll video. Preserve brand, legal routes and course checkout destination; replace the primary homepage with creator work."
+  },
+  "metrics": {
+    "viewsIn30Days": {
+      "value": 23000000,
+      "source": "User-provided milestone; not independently verified"
+    },
+    "followers": {
+      "value": 20700,
+      "source": "Public instagram.com/polidori.dev/reels/ profile, rounded display 20.7K"
+    },
+    "previousFollowerMilestone": {
+      "value": "nearly 7000",
+      "source": "User-provided milestone"
+    }
+  },
+  "reels": [
+    {
+      "code": "DeUth1xx0ue",
+      "views": "8.4M"
+    },
+    {
+      "code": "DeR3-ebRqdE",
+      "views": "1.1M"
+    },
+    {
+      "code": "DeNlonwxppy",
+      "views": "1M"
+    },
+    {
+      "code": "DeUVp0CRqN0",
+      "views": "506K"
+    }
+  ],
+  "reelSelection": "Highest displayed views among the 12 latest reels visible in the public Instagram profile. Counts are a dated snapshot, not live statistics.",
+  "films": [
+    {
+      "name": "Motoring & yachting",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-01.ppg",
+      "frames": 363,
+      "fps": 60
+    },
+    {
+      "name": "Private residences",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-02.ppg",
+      "frames": 361,
+      "fps": 60
+    },
+    {
+      "name": "Capital & legacy",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-03.ppg",
+      "frames": 361,
+      "fps": 60
+    },
+    {
+      "name": "Fine timepieces",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-04.ppg",
+      "frames": 301,
+      "fps": 60
+    },
+    {
+      "name": "Private aviation",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-05.ppg",
+      "frames": 301,
+      "fps": 60
+    },
+    {
+      "name": "Yachting",
+      "sourceProject": "PolidoriPrivateEquity",
+      "file": "/luxury/films-v4/film-06.ppg",
+      "frames": 301,
+      "fps": 60
+    }
+  ],
+  "mediaProcessing": "Six exact 60 fps films and preloaded WebP compatibility assets copied from PolidoriPrivateEquity. Original worker decoder reused with scoped asset URLs. Native document scrolling and overlapping gradient joins match that site. Original provenance is in private-equity-media-provenance.json. No new generations."
+}

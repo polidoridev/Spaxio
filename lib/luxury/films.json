@@ -1,0 +1,73 @@
+{
+  "scenes": [
+    {
+      "name": "film-01",
+      "url": "/luxury/films-v4/film-01.ppg",
+      "count": 363,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 12491471,
+      "gopSize": 6
+    },
+    {
+      "name": "film-02",
+      "url": "/luxury/films-v4/film-02.ppg",
+      "count": 361,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 8644026,
+      "gopSize": 6
+    },
+    {
+      "name": "film-03",
+      "url": "/luxury/films-v4/film-03.ppg",
+      "count": 361,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 8827842,
+      "gopSize": 6
+    },
+    {
+      "name": "film-04",
+      "url": "/luxury/films-v4/film-04.ppg",
+      "count": 301,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 5096377,
+      "gopSize": 6
+    },
+    {
+      "name": "film-05",
+      "url": "/luxury/films-v4/film-05.ppg",
+      "count": 301,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 4665558,
+      "gopSize": 6
+    },
+    {
+      "name": "film-06",
+      "url": "/luxury/films-v4/film-06.ppg",
+      "count": 301,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "codec": "avc1.64002A",
+      "bytes": 6077365,
+      "gopSize": 6
+    }
+  ],
+  "totalBytes": 45802639,
+  "gopSize": 6,
+  "encoding": "H.264 CRF18 fast, closed GOP6, no B frames, 1920x1080 60fps, full compressed preload"
+}

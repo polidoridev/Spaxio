@@ -1,5 +1,5 @@
-import CourseHome from "@/components/CourseHome";
+import CreatorHome from "@/components/CreatorHome";
 
 export default function HomePage() {
-  return <CourseHome />;
+  return <><link rel="preload" href="/luxury/film-01.jpg" as="image" /><CreatorHome /></>;
 }

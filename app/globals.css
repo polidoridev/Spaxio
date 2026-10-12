@@ -2936,3 +2936,6 @@ h1, h2, h3 {
 @media (prefers-reduced-motion: reduce) {
   .cs-scroll-cue i { animation: none; }
 }
+
+/* Keep consent controls legible alongside the creator portfolio. */
+.cc-lang-toggle, .cc-btn-manage, .cc-body, .cc-pref-desc { color: #b8beb9; }

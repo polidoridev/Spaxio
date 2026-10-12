@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Instrument_Serif, Inter, Geist_Mono } from "next/font/google";
+import { Instrument_Serif, Inter, Geist_Mono, Manrope } from "next/font/google";
 import CookieConsent from "@/components/CookieConsent";
 
-const display = Instrument_Serif({ subsets: ["latin"], weight: ["400"], style: ["normal", "italic"], variable: "--font-display" });
-const sans = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
+const creator = Manrope({ subsets: ["latin"], variable: "--font-creator" });
+const display = Instrument_Serif({ subsets: ["latin"], weight: ["400"], style: ["normal", "italic"], preload: false, variable: "--font-display" });
+const sans = Inter({ subsets: ["latin"], preload: false, variable: "--font-sans" });
+const mono = Geist_Mono({ subsets: ["latin"], preload: false, variable: "--font-mono" });
 
 const SITE_URL = "https://polidori.dev";
 const SITE_NAME = "Polidori Dev";
-const SITE_TAGLINE = "Prompt Claude to Make AI Video with Higgsfield & Viewmax";
+const SITE_TAGLINE = "AI Content Creator & Cinematic Visual Storytelling";
 const SITE_DESCRIPTION =
-  "The Polidori Dev course teaches you to prompt Claude to drive Higgsfield and Viewmax: AI images, video, voiceovers, and captions from plain English. No editing background required. Lifetime access and a private community.";
+  "AI content creation by Stefano Polidori. Cinematic luxury films, brand visuals, and viral social content. 23 million views in 30 days.";
 const SITE_DESCRIPTION_SHORT =
-  "Learn to prompt Claude to make AI images and video with Higgsfield and Viewmax. Lifetime access plus a private Discord community.";
+  "Explore original AI films and viral content by Stefano Polidori. Luxury visual storytelling, brand films, and 23 million views in 30 days.";
 const PHONE = "+1-514-516-0515";
 
 export const metadata: Metadata = {
@@ -23,27 +24,11 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`
   },
   description: SITE_DESCRIPTION,
-  keywords: [
-    "Higgsfield course",
-    "Viewmax course",
-    "Claude course",
-    "AI video course",
-    "prompt Claude for video",
-    "AI video generation",
-    "make AI videos without editing",
-    "Higgsfield prompts",
-    "Viewmax prompts",
-    "AI voiceover and captions",
-    "prompt engineering for video",
-    "online course",
-    "Polidori Dev",
-    "Polidori Dev course",
-    "Stefano Polidori"
-  ],
+  keywords: ["AI content creator", "AI video production", "Luxury brand films", "Cinematic AI video", "Higgsfield", "Stefano Polidori", "Polidori Dev"],
   authors: [{ name: "Stefano Polidori", url: SITE_URL }],
   creator: "Stefano Polidori",
   publisher: SITE_NAME,
-  category: "Education",
+  category: "AI content creation",
   applicationName: SITE_NAME,
   alternates: {
     canonical: SITE_URL
@@ -58,10 +43,10 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION_SHORT,
     images: [
       {
-        url: "/logo.png",
+        url: "/films/og-cover.jpg",
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} - web design and development agency`
+        alt: `${SITE_NAME} - AI content creator`
       }
     ]
   },
@@ -69,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${SITE_TAGLINE} | ${SITE_NAME}`,
     description: SITE_DESCRIPTION_SHORT,
-    images: ["/logo.png"]
+    images: ["/films/og-cover.jpg"]
   },
   robots: {
     index: true,
@@ -124,36 +109,13 @@ const jsonLd = {
       inLanguage: ["en-CA", "fr-CA"]
     },
     {
-      "@type": "Course",
-      "@id": `${SITE_URL}#course`,
-      name: "The Polidori Dev Course",
-      description: SITE_DESCRIPTION,
+      "@type": "Person",
+      "@id": `${SITE_URL}#creator`,
+      name: "Stefano Polidori",
       url: SITE_URL,
-      image: `${SITE_URL}/logo.png`,
-      inLanguage: ["en-CA", "fr-CA"],
-      provider: { "@id": `${SITE_URL}#organization` },
-      instructor: { "@type": "Person", name: "Stefano Polidori" },
-      teaches: [
-        "Prompting Claude for AI media generation",
-        "Using the Higgsfield connector",
-        "Using the Viewmax connector",
-        "Generating AI images and video from prompts",
-        "AI voiceovers and captions",
-        "Choosing the right AI model for a shot"
-      ],
-      offers: {
-        "@type": "Offer",
-        category: "Paid",
-        price: "0",
-        priceCurrency: "USD",
-        availability: "https://schema.org/InStock",
-        url: "https://whop.com/polidori-dev-3c24/polidori-dev-full-guide/"
-      },
-      hasCourseInstance: {
-        "@type": "CourseInstance",
-        courseMode: "Online",
-        courseWorkload: "PT20H"
-      }
+      jobTitle: "AI Content Creator",
+      sameAs: ["https://www.instagram.com/polidori.dev/"],
+      knowsAbout: ["AI content creation", "Cinematic visual storytelling", "AI video production"]
     }
   ]
 };
@@ -161,7 +123,7 @@ const jsonLd = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${sans.variable} ${mono.variable}`}>
+      <body className={`${display.variable} ${sans.variable} ${mono.variable} ${creator.variable}`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

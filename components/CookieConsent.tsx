@@ -105,7 +105,7 @@ export default function CookieConsent() {
         <button
           className="cc-lang-toggle"
           onClick={() => setLang(lang === "fr" ? "en" : "fr")}
-          aria-label={lang === "fr" ? "Switch to English" : "Passer au francais"}
+          aria-label={lang === "fr" ? "EN - Switch to English" : "FR - Passer au francais"}
         >
           {lang === "fr" ? "EN" : "FR"}
         </button>

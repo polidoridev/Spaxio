@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
-import MarketingSite from "@/components/MarketingSite";
+import CreatorServices from "@/components/CreatorServices";
 
 export const metadata: Metadata = {
-  title: "Web Design, Development, SEO and Hosting Services",
-  description:
-    "Professional website creation for $1000 CAD and managed monthly hosting for $150 CAD with web design, development, SEO, maintenance, analytics, and launch support.",
-  alternates: {
-    canonical: "https://polidori.dev/services"
-  },
-  keywords: [
-    "web design services",
-    "website development services",
-    "SEO services",
-    "managed website hosting",
-    "business website services"
-  ],
-  openGraph: {
-    title: "Web Design, Development, SEO and Hosting Services | Polidori Dev",
-    description:
-      "Clear pricing for custom business websites, managed hosting, SEO, analytics, maintenance, and launch support.",
-    url: "https://polidori.dev/services",
-    type: "website"
-  }
+  title: "AI Content Creation & Brand Films",
+  description: "Original AI content, luxury visual storytelling, and product films by Stefano Polidori. Discuss your next creative project.",
+  alternates: { canonical: "https://polidori.dev/services" },
+  openGraph: { title: "AI Content Creation & Brand Films | Polidori Dev", description: "AI content creation, luxury visual storytelling, and brand films.", url: "https://polidori.dev/services" },
 };
 
-export default function ServicesPage() {
-  return <MarketingSite variant="services" />;
-}
+export default function ServicesPage() { return <CreatorServices />; }
