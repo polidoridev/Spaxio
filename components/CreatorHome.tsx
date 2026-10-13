@@ -7,7 +7,6 @@ import InquiryForm from "./InquiryForm";
 import "./creator.css";
 
 const INSTAGRAM = "https://www.instagram.com/polidori.dev/";
-const COURSE = "https://whop.com/polidori-dev-3c24/polidori-dev-full-guide/";
 const reels = [
   { code: "DeUth1xx0ue", views: "8.4M" },
   { code: "DeR3-ebRqdE", views: "1.1M" },
@@ -24,7 +23,7 @@ const copy = {
     reelsTitle: "The work finds its audience.", reelsBody: "Four of the most-watched reels among the latest posts on @polidori.dev.", watch: "Watch reel", load: "Load Instagram video", thirdParty: "Loads Instagram’s embedded player. Instagram may use cookies.", open: "Open on Instagram", viewLabel: "views", profile: "More on Instagram",
     aboutTitle: "A developer’s mind. A creator’s eye.", aboutBody: "I’m Stefano. I started in website design and development. Now I use that same instinct for building things to create AI films, visual worlds, and content people want to share.", aboutSecond: "From the first concept to the final frame, I bring the creative direction and the tools together.",
     service1: "AI content creation", desc1: "Original short-form videos built around an idea worth watching.", service2: "Luxury visual storytelling", desc2: "Cinematic property, automotive, and lifestyle concepts.", service3: "Product & brand films", desc3: "Distinctive visual stories for products and the people behind them.",
-    learn: "Want to make your own?", learnBody: "Learn the AI workflows behind the work.", course: "Explore the course", cta: "Let’s make something worth watching.", ctaBody: "Have a brand, a product, or an idea in mind? Tell me about it.", email: "Start a conversation", footer: "AI content. Human direction.", privacy: "Privacy", theme: "Change color theme", nav: "Main navigation", skip: "Skip to work",
+    cta: "Let’s make something worth watching.", ctaBody: "Have a brand, a product, or an idea in mind? Tell me about it.", email: "Start a conversation", footer: "AI content. Human direction.", privacy: "Privacy", theme: "Change color theme", nav: "Main navigation", skip: "Skip to work",
   },
   fr: {
     work: "Créations", story: "À propos", contact: "Créons ensemble", eyebrow: "Stefano Polidori / Créateur de contenu IA",
@@ -35,7 +34,7 @@ const copy = {
     reelsTitle: "Les créations trouvent leur public.", reelsBody: "Quatre des reels les plus regardés parmi les dernières publications de @polidori.dev.", watch: "Voir le reel", load: "Charger la vidéo Instagram", thirdParty: "Charge le lecteur Instagram. Instagram peut utiliser des cookies.", open: "Ouvrir sur Instagram", viewLabel: "vues", profile: "Plus sur Instagram",
     aboutTitle: "L’esprit développeur. Le regard créateur.", aboutBody: "Moi, c’est Stefano. J’ai commencé dans la conception de sites web. Aujourd’hui, j’utilise ce même instinct pour créer des films IA, des univers visuels et du contenu qu’on a envie de partager.", aboutSecond: "Du premier concept à la dernière image, je réunis la direction créative et les outils.",
     service1: "Création de contenu IA", desc1: "Des vidéos originales pensées autour d’une idée qui mérite d’être vue.", service2: "Narration visuelle de luxe", desc2: "Des concepts cinématographiques pour l’immobilier, l’automobile et l’art de vivre.", service3: "Films de marque et de produit", desc3: "Des histoires visuelles pour les produits et les personnes qui les créent.",
-    learn: "Envie de créer à votre tour ?", learnBody: "Découvrez les méthodes IA derrière les créations.", course: "Découvrir la formation", cta: "Créons quelque chose qui mérite d’être vu.", ctaBody: "Une marque, un produit ou une idée en tête ? Parlons-en.", email: "Lancer la conversation", footer: "Contenu IA. Direction humaine.", privacy: "Confidentialité", theme: "Changer le thème", nav: "Navigation principale", skip: "Aller aux créations",
+    cta: "Créons quelque chose qui mérite d’être vu.", ctaBody: "Une marque, un produit ou une idée en tête ? Parlons-en.", email: "Lancer la conversation", footer: "Contenu IA. Direction humaine.", privacy: "Confidentialité", theme: "Changer le thème", nav: "Navigation principale", skip: "Aller aux créations",
   },
 };
 
@@ -81,7 +80,6 @@ export default function CreatorHome() {
         <div className="cr-reel-footer"><small>{t.thirdParty}<br/>{t.date}</small><a className="cr-text-link" href={INSTAGRAM} target="_blank" rel="noreferrer">{t.profile} ↗</a></div>
       </section>
       <section id="about" className="cr-about cr-wrap" aria-labelledby="about-title"><h2 id="about-title">{t.aboutTitle}</h2><div className="cr-about-body"><p>{t.aboutBody}</p><p>{t.aboutSecond}</p><div className="cr-services">{[[t.service1,t.desc1],[t.service2,t.desc2],[t.service3,t.desc3]].map(([title,desc])=><div key={title}><h3>{title}</h3><p>{desc}</p></div>)}</div></div></section>
-      <aside className="cr-learn cr-wrap"><div><h2>{t.learn}</h2><p>{t.learnBody}</p></div><a className="cr-text-link" href={COURSE} target="_blank" rel="noreferrer">{t.course} ↗</a></aside>
       <section id="contact" className="cr-contact cr-wrap"><h2>{t.cta}</h2><p>{t.ctaBody}</p><InquiryForm language={lang} /><a className="cr-email" href="mailto:contact@polidori.dev">contact@polidori.dev</a></section>
       <footer className="cr-footer cr-wrap"><a href="#top" className="cr-footer-brand">Polidori Dev</a><p>{t.footer}</p><div><a href={INSTAGRAM} target="_blank" rel="noreferrer">Instagram ↗</a><a href="/privacy">{t.privacy}</a><span>© 2026</span></div></footer>
     </main>
