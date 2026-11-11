@@ -10,11 +10,11 @@ const mono = Geist_Mono({ subsets: ["latin"], preload: false, variable: "--font-
 
 const SITE_URL = "https://polidori.dev";
 const SITE_NAME = "Polidori Dev";
-const SITE_TAGLINE = "AI Content Creator & Cinematic Visual Storytelling";
+const SITE_TAGLINE = "AI Content Marketing for Companies";
 const SITE_DESCRIPTION =
-  "AI content creation by Stefano Polidori. Cinematic luxury films, brand visuals, and viral social content. 23 million views in 30 days.";
+  "AI content marketing for companies by Stefano Polidori. AI advertising creative, social content, and brand films on custom monthly retainers.";
 const SITE_DESCRIPTION_SHORT =
-  "Explore original AI films and viral content by Stefano Polidori. Luxury visual storytelling, brand films, and 23 million views in 30 days.";
+  "AI advertising, social content, and brand films for your company. Work directly with Stefano Polidori on a custom monthly retainer.";
 const PHONE = "+1-514-516-0515";
 
 export const metadata: Metadata = {
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`
   },
   description: SITE_DESCRIPTION,
-  keywords: ["AI content creator", "AI video production", "Luxury brand films", "Cinematic AI video", "Higgsfield", "Stefano Polidori", "Polidori Dev"],
+  keywords: ["AI content marketing", "AI advertising", "Monthly content retainers", "AI video production", "Brand films", "Stefano Polidori", "Polidori Dev"],
   authors: [{ name: "Stefano Polidori", url: SITE_URL }],
   creator: "Stefano Polidori",
   publisher: SITE_NAME,
-  category: "AI content creation",
+  category: "Content marketing",
   applicationName: SITE_NAME,
   alternates: {
     canonical: SITE_URL
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
         url: "/films/og-cover.jpg",
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} - AI content creator`
+        alt: `${SITE_NAME} - AI content marketing`
       }
     ]
   },
@@ -113,9 +113,9 @@ const jsonLd = {
       "@id": `${SITE_URL}#creator`,
       name: "Stefano Polidori",
       url: SITE_URL,
-      jobTitle: "AI Content Creator",
+      jobTitle: "AI Content Marketing Specialist",
       sameAs: ["https://www.instagram.com/polidori.dev/"],
-      knowsAbout: ["AI content creation", "Cinematic visual storytelling", "AI video production"]
+      knowsAbout: ["AI content marketing", "Advertising creative", "AI video production"]
     }
   ]
 };

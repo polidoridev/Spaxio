@@ -11,7 +11,7 @@ function load(file, overrides = {}, env = {}) {
   return module.exports;
 }
 const contact = load('lib/contact.ts');
-const valid = { name: 'Inquiry test', email: 'visitor@example.com', projectType: 'AI content', message: 'A cinematic product concept for our next launch.' };
+const valid = { name: 'Inquiry test', email: 'visitor@example.com', projectType: 'Monthly retainer', message: 'A cinematic product concept for our next launch.' };
 const smtp = { SMTP_HOST: 'smtp.example.com', SMTP_PORT: '465', SMTP_USER: 'sender@example.com', SMTP_PASS: 'test-only-secret' };
 function handler({ env = smtp, delivery = { accepted: ['contact@polidori.dev'] }, error } = {}) {
   const sent = [];

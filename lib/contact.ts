@@ -1,5 +1,5 @@
 export const CONTACT_EMAIL = "contact@polidori.dev";
-export const PROJECT_TYPES = ["AI content", "Luxury visuals", "Brand film", "Other"] as const;
+export const PROJECT_TYPES = ["Monthly retainer", "AI advertising", "Brand film", "Other"] as const;
 export type Inquiry = { name: string; email: string; projectType: string; message: string };
 
 export function validateInquiry(value: unknown): Inquiry | null {

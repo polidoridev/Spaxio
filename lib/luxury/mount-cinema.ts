@@ -7,6 +7,7 @@ import manifest from "./films.json";
 export function mountCinema(root: HTMLElement, status: HTMLElement) {
   gsap.registerPlugin(ScrollTrigger);
   const sections = Array.from(root.querySelectorAll<HTMLElement>(".cr-luxury-scene"));
+  const scenes = manifest.scenes.slice(0, sections.length);
   const containers = sections.map(section => section.querySelector<HTMLElement>(".cr-luxury-visual")!);
   const makeCanvases = () => containers.map(container => {
     const canvas = document.createElement("canvas");
@@ -50,7 +51,7 @@ export function mountCinema(root: HTMLElement, status: HTMLElement) {
       // Complete the last clip before leaving the film collection for the portfolio.
       const end = index === sections.length - 1 ? bounds.top + bounds.height - viewport : bounds.top + bounds.height;
       const progress = Math.max(0, Math.min(1, (scrollY - start) / Math.max(1, end - start)));
-      const target = progress * (manifest.scenes[index].count - 1);
+      const target = progress * (scenes[index].count - 1);
       const active = bounds.top < scrollY + viewport && bounds.top + bounds.height > scrollY && !document.hidden;
       let value = display[index];
       if (value === null || !active) value = target;
@@ -82,7 +83,7 @@ export function mountCinema(root: HTMLElement, status: HTMLElement) {
     worker?.terminate(); worker = undefined;
     canvases.forEach(canvas => canvas.remove());
     canvases = makeCanvases();
-    renderer = new FilmRenderer(canvases, manifest.scenes, mobile, receive);
+    renderer = new FilmRenderer(canvases, scenes, mobile, receive);
     void renderer.start(forceImages);
     measure();
   };
@@ -93,7 +94,7 @@ export function mountCinema(root: HTMLElement, status: HTMLElement) {
       worker.onmessage = ({ data }) => receive(data);
       worker.onerror = () => { if (!disposed) mainThread(); };
       const surfaces = canvases.map(canvas => canvas.transferControlToOffscreen());
-      worker.postMessage({ type: "init", canvases: surfaces, scenes: manifest.scenes, mobile, forceImages }, surfaces);
+      worker.postMessage({ type: "init", canvases: surfaces, scenes, mobile, forceImages }, surfaces);
     }
   } catch { mainThread(); }
   const resize = new ResizeObserver(measure);
